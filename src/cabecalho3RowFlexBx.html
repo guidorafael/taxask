@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        /* Center the form on the page */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Form container */
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            width: 600px;
+        }
+
+        /* Flexbox layout for labels and inputs in a row */
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        /* Labels are of fixed width */
+        label {
+            width: 120px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Input fields grow to take up the remaining space */
+        input {
+            flex-grow: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Style the submit button */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<form id="financialForm">
+    <h2>Financial Data Form</h2>
+
+    <!-- Flexbox for Corretora (Broker) -->
+    <div class="form-group">
+        <label for="corretora">Corretora:</label>
+        <input type="text" id="corretora" name="corretora" required>
+    </div>
+
+    <!-- Flexbox for Nota (Note) -->
+    <div class="form-group">
+        <label for="nota">Nota:</label>
+        <input type="text" id="nota" name="nota" required>
+    </div>
+
+    <!-- Flexbox for Pregão (Trading Date) -->
+    <div class="form-group">
+        <label for="pregao">Pregão (Day-Month-Year):</label>
+        <input type="date" id="pregao" name="pregao" required>
+    </div>
+
+    <!-- Flexbox for Cred/Deb (Credit/Debit) -->
+    <div class="form-group">
+        <label for="creddeb">Cred/Deb (C/D):</label>
+        <input type="text" id="creddeb" name="creddeb" pattern="[CD]" title="Must be C or D" required>
+    </div>
+
+    <!-- Flexbox for Valor (Value) -->
+    <div class="form-group">
+        <label for="valor">Valor (Two Decimal):</label>
+        <input type="number" id="valor" name="valor" step="0.01" required>
+    </div>
+
+    <!-- Flexbox for Items (Integer) -->
+    <div class="form-group">
+        <label for="items">Items (Integer):</label>
+        <input type="number" id="items" name="items" min="0" step="1" required>
+    </div>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
