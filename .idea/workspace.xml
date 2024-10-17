@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4316cf86-db5f-4cf2-8983-23d1317494c5" name="Changes" comment="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter. Lembrar que &quot;&quot; é diferente de isEmpty()." />
+    <list default="true" id="4316cf86-db5f-4cf2-8983-23d1317494c5" name="Changes" comment="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter. Lembrar que &quot;&quot; é diferente de isEmpty().">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729176071055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter. Lembrar que &quot;&quot; é diferente de isEmpty().">
+      <option name="closed" value="true" />
+      <created>1729177882914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729177882914</updated>
+    </task>
+    <task id="LOCAL-00009" summary="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter. Lembrar que &quot;&quot; é diferente de isEmpty().">
+      <option name="closed" value="true" />
+      <created>1729177971627</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729177971627</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
