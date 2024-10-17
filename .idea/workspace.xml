@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4316cf86-db5f-4cf2-8983-23d1317494c5" name="Changes" comment="projeto foi movido.">
+    <list default="true" id="4316cf86-db5f-4cf2-8983-23d1317494c5" name="Changes" comment="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/ssdm2/github.com/kotlin/taxask/taxask",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ssdm2/github.com/kotlin/taxask/taxask&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -80,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728958815956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter">
+      <option name="closed" value="true" />
+      <created>1729175336538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729175336538</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,7 +100,8 @@
     <MESSAGE value="acrescentou teste bem sucedido" />
     <MESSAGE value="acrescentou html do projeto passado. Requer revisão." />
     <MESSAGE value="projeto foi movido." />
-    <option name="LAST_COMMIT_MESSAGE" value="projeto foi movido." />
+    <MESSAGE value="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter" />
+    <option name="LAST_COMMIT_MESSAGE" value="alteração para assumir como zero a taxa de corretagem ao simplesmente dar enter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

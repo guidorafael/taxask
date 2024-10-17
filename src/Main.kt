@@ -125,6 +125,10 @@ fun entLinDet(theHead: cabecType): linhaType {
          * In such cases, you can use the !! operator to explicitly
          * tell the compiler that the value is not null.
          *
+         * Análise do código alertou para o seguinte:
+         *     eplinTEMP = "" é diferente (sempre true) de perguntar
+         *     eplinTEMP.isEmpty()
+         *
          * https://kotlinlang.org/docs/null-safety.html#elvis-operator
          */
 
@@ -135,7 +139,7 @@ fun entLinDet(theHead: cabecType): linhaType {
         //    eplin = if(eṕlin != null) eplin else 0  //val l: Int = if (b != null) b.length else 0
 
         eplinTEMP = readln()
-        eplin = if(eplinTEMP == null || eplinTEMP == "") 0.0 else eplinTEMP.toDouble()
+        eplin = if(eplinTEMP == null || eplinTEMP.isEmpty()) 0.0 else eplinTEMP.toDouble()
 
     }
 
