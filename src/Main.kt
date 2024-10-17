@@ -110,10 +110,33 @@ fun entLinDet(theHead: cabecType): linhaType {
     val unlin = abs(readln().toDouble())   // preço medio da aquisição (unitario da linha)- sempre positivo
 
     var eplin = 0.0
+    var eplinTEMP: String? = ""
     if (theHead.corretora != "INTER") {
-        println("Se NECTON e se ação entao 4.50 senão zero:")
-        eplin =
-            readln().toDouble()   // coRRetagem específica deste papel na linha  - SEMPRE NEGATIVA conhece o valor - fora do calculo ponderado
+        println("Se NECTON e se ação entao 4.50 senão zero (<enter>):")
+
+        /**
+         * The value null represents the absence of any object,
+         * while the empty string is an object of type String with zero characters.
+         * If you try to compare the two, they are not the same.
+         *
+         * The !! operator is particularly useful when you are confident that a value
+         * is not null and there’s no chance of getting an NPE,
+         * but the compiler cannot guarantee this due to certain rules.
+         * In such cases, you can use the !! operator to explicitly
+         * tell the compiler that the value is not null.
+         *
+         * https://kotlinlang.org/docs/null-safety.html#elvis-operator
+         */
+
+        //    eplin =
+        //        readln().toDouble()   // coRRetagem específica deste papel na linha  - SEMPRE NEGATIVA conhece o valor - fora do calculo ponderado
+
+        //    eplin = readln().toDouble()
+        //    eplin = if(eṕlin != null) eplin else 0  //val l: Int = if (b != null) b.length else 0
+
+        eplinTEMP = readln()
+        eplin = if(eplinTEMP == null || eplinTEMP == "") 0.0 else eplinTEMP.toDouble()
+
     }
 
     /*  "Compras:$ttAbsCompras  " +
