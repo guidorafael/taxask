@@ -139,6 +139,7 @@ fun entLinDet(theHead: cabecType): linhaType {
         //    eplin = if(eṕlin != null) eplin else 0  //val l: Int = if (b != null) b.length else 0
 
         eplinTEMP = readln()
+        // master branch
         eplin = if(eplinTEMP == null || eplinTEMP.isEmpty()) 0.0 else eplinTEMP.toDouble()
 
     }
